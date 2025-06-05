@@ -1,0 +1,88 @@
+body{
+    background-image: url(bgg.jpg);
+    scroll-behavior: smooth;
+}
+.heading1{
+    color:chocolate
+    
+    
+}
+label{
+    color:darkred
+}
+button{
+    background-color: brown;
+}
+select{
+    background-color: cornflowerblue;
+}
+
+
+.home{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+}
+.navbar ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+    
+    
+h2{
+    padding: 20px;
+    /* background-color: brown;
+     */
+}
+
+h2:hover{
+    background-color: indigo;
+    transition: 2s;
+    cursor: pointer;
+    
+}
+.nav{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.home{
+    border-radius: 0cqb;
+    height:100vh
+}
+
+
+
+@keyframes MoveUpDown{
+    0%{
+       transform:scale(100%);
+    }
+    50%{
+        transform:scale(200%)
+    }
+    100%{
+       transform:scale(100%);
+    }
+}
+.home h1{
+animation: MoveUpDown 5s infinite;
+}
+
+@keyframes Rotate{
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.home img{
+    animation:Rotate 10s infinite;
+}

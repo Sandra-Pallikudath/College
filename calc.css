@@ -1,0 +1,30 @@
+body{
+    background-image: url(img.avif);
+    background-size: cover;
+}
+button{
+    background-color: rgb(19, 139, 29);
+}
+input{
+    background-color: rgb(222, 224, 199);
+}
+label{
+    font-style: italic;
+}
+.cal{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:50vh;
+    flex-direction:column;
+    
+    
+}
+form{
+    padding:30px;
+    border-width:5px;
+    border-color: black;
+    border-style: double   ;
+    padding:10px;
+    margin:200px
+}
